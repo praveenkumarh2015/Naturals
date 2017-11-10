@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Naturals</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Save plants, save the nature. Never say there is nothing beautiful in the world anymore. There is always something to make you wonder in the shape of a tree, the trembling of a leaf.">
+  	<meta name="keywords" content="Naturals,Responsive Web Design">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/ico.png">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+
+	
+<div class="modal fade" id="logonBox" tabindex="-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span>&times;</span>
+						</button>
+						<h4 class="modal-title">Sign In</h4>
+					</div>
+
+					<div class="modal-body">
+						<div>
+							<ul class="nav nav-pills">
+								<li class="active">
+									<a href="#signin" data-toggle="tab" data-caption="Sign In">Sign In
+									</a>
+								</li>
+
+								<li>
+									<a href="#signup" data-toggle="tab" data-caption="Sign Up">Sign Up
+									</a>
+								</li>
+							</ul>
+
+							<div class="tab-content">
+								<div class="tab-pane active" id="signin">
+
+									<form name="form" style="padding-top: 5px">
+                    					<div class="form-group"  class="form-control" id="userName" placeholder="User Name">
+
+                    					<input type="text" class="form-control" id="userName" placeholder="User Name" name="text"  required />
+
+                    					</div>
+
+                						<div class="form-group"  class="form-control" id="password" placeholder="Password">
+
+                      					<input type="password" class="form-control" id="password" placeholder="Password" name="text"  required />
+
+                						</div>
+   
+                    					<button type="submit" class="btn btn-primary btn-large" >Submit</button>
+                					</form>
+
+								</div>
+
+								<div class="tab-pane" id="signup">
+									<form style="padding-top: 5px">
+										<div class="form-group">
+											<input type="text" class="form-control" id="yourName" placeholder="Your Full Name" >
+										</div>
+
+										<div class="form-group">
+											<input type="text" class="form-control" id="yourUserName" placeholder="Desired User Name" >
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" id="yourEmail" placeholder="Your Email Id" >
+										</div>
+
+										<div class="form-group">
+											<input type="password" class="form-control" id="yourPwd" placeholder="Password" >
+										</div>
+
+										<div class="form-group">
+											<input type="password" class="form-control" id="confirmPwd" placeholder="Confirm Password" >
+										</div>
+
+										<button type="button" class="btn btn-round  btn-primary btn-block" id="doLogon" >Sign Up
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-round btn-primary" data-dismiss="modal"> Cancel</button>
+					</div>
+				</div>
+		</div>
+</div>
+
+
+<div id="navbar-main">
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#home" class="navbar-brand scroll">
+				<span class="icon icon-leaf"></span> 
+			Naturals
+			</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+
+			<li> 
+				<a href="#home" class="scroll"> 
+					<span class="glyphicon glyphicon-home"></span> Home
+				</a> 
+			</li>
+
+			<li> 
+				<a href="#about" class="scroll">
+					<span class="glyphicon glyphicon-leaf"></span> About Naturals
+				</a> 
+			</li>
+
+			<li>
+				<a href="#needs" class="scroll">
+					<span class="glyphicon glyphicon-heart"></span> Needs
+				</a>
+			</li>
+
+			<li> 
+				<a href="#gallery" class="scroll active">
+					<span class="glyphicon glyphicon-th-large"></span> Gallery
+				</a> 
+			</li>
+
+			<li> 
+				<a href="#contact" class="scroll active">
+					<span class="glyphicon glyphicon-earphone"></span> Contact
+				</a> 
+			</li>
+			</ul>
+
+<ul class="nav navbar-nav navbar-right">
+	<li>
+		<a href="#login" id="logonLink"><span class="glyphicon glyphicon-log-in" ></span> Login</a>
+	</li>
+	
+
+</ul>
+
+		
+		</div>
+	</div>
+</nav>
+</div>
+
+
+<div id="home">
+	
+<div id="headerwrap">
+	<header class="clearfix">
+		<h1 class="animated rubberBand"> <span class="icon icon-leaf" ></span></h1>
+		<p class="animated bounceInDown">Save plants, save the nature.</p>
+		<p class="animated bounceInUp">Mountains are the beginning and the end of all natural scenery.</p>
+	</header>
+</div>
+</div>
+
+
+<div id="greywrap">
+	<div class="row">
+		<div class="col-md-4 ">
+		<span class="icon icon-leaf"></span>
+		<h2>Leaves</h2>
+			<p>Never say there is nothing beautiful in the world anymore. There is always something to make you wonder in the shape of a tree, the trembling of a leaf.</p>
+		</div>
+
+		<div class="col-md-4 ">
+
+		<span class="icon icon-flower"></span>
+			<h2>Flowers</h2>
+			<p>Flowers always make people better, happier, and more helpful; they are sunshine, food and medicine for the soul.</p>
+		</div>
+
+		<div class="col-md-4 ">
+		<span class="icon icon-power"></span>
+		<h2>Thunder</h2>
+			<p>The sound of 'gentle stillness' after all the thunder and wind have passed will the ultimate Word from God.</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="container" id="about">
+	<div class="row white">
+		<h1 class="text-center page-header">About Naturals</h1>
+		<div class="col-md-6">
+			<p class="text-justify">Soil, wood, oil. minerals, petroleum, water are considered natural resources because they occur in their natural form and are not made by human beings.Humans can only modify natural resources. The energy that makes natural resources comes from geochemical, geophysical and solar energy.</p>
+		</div>
+
+		<div class="col-md-6">
+			<p class="text-justify">The exploitation of nature and natural resources can be dated back to the advent of humankind and the very start of civilization. Earlier people used to cut trees for fuel, for building materials for boats and for shelter. There are two kinds of natural resources- renewable and nonrenewable.</p>
+		</div>
+	</div>
+</div>
+
+<section class=" section-divider textdivider divider1">
+	<div class="container">
+		<h1 class="page-header">Don’t disturb the natural cycle, let them run as usual.</h1>
+		<p>Reduce, reuse and recycle are ways to save the nature.</p>
+	</div>
+</section>
+
+
+<section id="needs">
+<div class="container"   style="padding-top: 25px;">
+	<div class="row">
+			<h1 class="text-center page-header">Birds and Water</h1>
+	<div class=" col-md-offset-1 col-md-11">
+	
+	<p class="text-justify">
+	Many people put food out for birds, but fewer provide a regular supply of clean water. Birds need water for drinking and bathing. Water is particularly important during the winter, and in dry weather during the summer.Birds get the liquid they need from their food, and by drinking. Many insectivorous birds get most of their water from food, while seed-eating birds have a dry diet and need to drink more water. Since birds have no sweat glands, they need less water than mammals. However, they do lose water through respiration and in their droppings. Most small birds need to drink at least twice a day to replace the lost water. Water is freely available to birds at all shallow edges of ponds, rivers and streams. Woodland birds may drink water droplets on leaves.
+	</p>
+	<p class="text-justify">
+		Most small birds need to drink water at least twice a day. Most birds drink by dipping their bill in water and throwing their head back to swallow. Pigeons and doves are able to immerse their bills and drink continuously. Water to bathe in is equally important, especially in winter. It is essential that birds keep their feathers in good condition, and bathing is an important part of feather maintenance. Dampening the feathers loosens the dirt and makes the feathers easier to preen. When preening, the bird carefully rearranges the feathers and spreads oil from the preen gland so they remain waterproof and trap an insulating layer of air underneath. Should I supply drinking water for my garden birds? It is good to provide a regular supply of clean water for birds to drink and bathe in. Water is particularly important during the winter, and in dry weather. Shallow containers, like dustbin lids or plant saucers, work well, but make sure you clean them regularly to prevent diseases from spreading.
+	</p>
+		
+	</div>
+</section>
+	<div class="col-md-offset-3 col-md-6">
+		<img src="img/Bird.png" class="img-responsive">
+	</div>
+	
+	</div>
+</div>
+
+
+
+
+
+<div class="call">
+        <div class="vert-text">
+            <h2 class="text-primary">Save plants, save the nature.</h2>
+        </div>
+</div>
+
+
+
+<section id="gallery">
+</section>
+<div class="container"  style="padding-top: 20px;">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="text-center page-header">Gallery</h1>
+		</div>
+			
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/1.jpg">
+				</a>
+			</div>
+
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/2.jpg">
+				</a>
+			</div>
+
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/3.jpg">
+				</a>
+			</div>
+
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/4.jpg">
+				</a>
+			</div>
+
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/5.jpg">
+				</a>
+			</div>
+
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/6.jpg">
+				</a>
+			</div>
+
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/7.jpg">
+				</a>
+			</div>
+
+			<div class=" col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<a href="#gallery" class="thumbnail">
+					<img src="img/Gallery/8.jpg">
+				</a>
+			</div>
+		
+	</div>
+	<div class="modal fade" role="dialog" id="myModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				
+				<div class="modal-body">
+					<div class="modal-image">
+					<img src='' id="modal-img" style="height: 100%; width: 100%">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div id="greywrap">
+	<div class="row">
+		<div class=" col-md-offset-1 col-md-5">
+			<img src="img/Humming_Bird.png" height="300" width="300">
+		</div>
+		<div class="col-md-5">
+		<span class="icon icon-share"></span>
+			<h2>God loved the birds and created trees, humans loved the birds and created cages.</h2>
+			<button class="btn btn-success btn-lg ">Share</button>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row white">
+		<h1 class="text-center page-header">Natural resources</h1>
+		<div class="col-md-6">
+			<p class="text-justify">Natural resource is defined as form of energy and or matter which is essential for the functioning of organisms, population and ecosystems. Natural resource refers to any form of energy or matter essential for the fulfillment of physiological, socio­economic and culture needs both as undivided or a community.</p>
+		</div>
+
+		<div class="col-md-6">
+			<p class="text-justify">The basic ecological variables – energy, space, ‘time and diversity are sometimes combined are called natural resources.This natural resource is maintaining ecological balance among them. The natuial resources include all the land, water, minerals, vegetation, wildlife and sceneries all of which remain useful to human society in one way or other.</p>
+		</div>
+	</div>
+</div>
+
+<section class=" section-divider textdivider divider2">
+	<div class="container">
+		<h1 class="page-header">Save nature and nature will save your life and future.</h1>
+		<p>Everything, given by God, is nature.</p>
+	</div>
+</section>
+
+<div class="container" id="contact">
+	<div class="row white">
+	<h1 class=" text-center page-header">Contact</h1>
+		
+		<div class="col-md-4">
+			<h5 class="page-header"> 
+				<span class="fa fa-envelope-o fa-2x"></span> praveenkumar.h2015@vit.ac.in
+			</h5>
+	
+			<h5 class="page-header"> 
+				<span class="fa fa-external-link fa-2x"></span> http://praveen-kumar-h.cf
+			</h5>
+		</div>
+
+
+		<div class="col-md-4">
+			<form role="form">
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Username" >
+				</div>
+
+				<div class="form-group">
+					<input type="email" class="form-control" placeholder="Email" >
+				</div>
+
+				<div class="form-group">
+					<textarea class="form-control" placeholder="Comments"  ></textarea>
+				</div>
+			</form>
+			<button class="btn btn-success btn-block">Submit</button>
+		</div>
+
+
+		<div class="col-md-offset-1 col-md-3">
+			<h5 class="page-header"> 
+				<span class="fa fa-envelope-o fa-2x"></span> praveenkumar.h2015@vit.ac.in
+			</h5>
+	
+			<h5 class="page-header"> 
+				<span class="fa fa-external-link fa-2x"></span> http://praveen-kumar-h.cf
+			</h5>
+
+		</div>
+
+		
+
+	</div>
+</div>
+
+
+
+    <div id="map" class="animated rubberBand">
+
+    </div>
+	
+    	
+
+
+
+<div id="footerwrap">
+	<div class="container">
+
+			<div id="contact-row-4" class="row animated pulse" >
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="#"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></p>
+					<span class="hover-text hover-white">praveenkumar.h2015</span>
+					<span class="hover-text hover-white">@vit.ac.in</span>
+					</a>
+				</div>
+
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="https://goo.gl/rvyoym"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></p>
+					<span class="hover-text hover-white font-light ">praveen-kumar-4216b8109</span></a>
+				</div>
+
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="http://praveen-kumar-h.cf"><i class="fa fa-link fa-3x" aria-hidden="true"></i></a></p>
+					<span class="hover-text hover-white font-light">praveen-kumar-h.cf</span></a>
+				</div>
+
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="https://goo.gl/bFDdT7"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></p>
+					<span class="hover-text hover-white font-light">Praveen.h1992</span></a>
+				</div>
+
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="#"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></p>
+					<span class="hover-text hover-white">praveenkumar.h2015</span>
+					<span class="hover-text hover-white">@vit.ac.in</span>
+					</a>
+				</div>
+
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div>
+
+
+			
+	</div>		
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByYCAedh05PKBu20rgAS79Xi3k8MZz6Go&callback=initMap">
+</script>
+
+</body>
+</html>
